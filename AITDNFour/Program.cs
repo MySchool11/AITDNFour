@@ -26,7 +26,7 @@ namespace AITDNFour
             // Arrays can be multidimensional (x), (x, y), (x, y, z), (x, y, z, t)..... 
             // You can also have an array of array (known as a jagged array)
 
-            // Declaing arrays
+            // Declaing arrays (do not get confused here, just because the first element in an array is index 0, does not mean you need to declare one less for the size of the array)
             // One dimensional
             var arrayOne = new int[10]; // so declared as [10] it has 10 positions 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
             // although the var keyword has now become a c# standard the old way of creating an array was; int[] arrayOne = new int[10]
@@ -40,7 +40,7 @@ namespace AITDNFour
                 var arrayThirtyOne = new int[2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
                     2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]; // this array has (2 x 10 to the 31) 2,147,483,648 positions (2.1 billion)
                 // your computer may not have enough free memory to hold this array. It will need 2.1 Gigabytes of free RAM, minimum (all zeroes and no overhead), hence the error handling
-                // also the program has to be x64 (64 bit) in nature and the app.config file has to be amended to allow large objects to be included in the project.
+                // also the program has to be x64 (64 bit) in nature and the app.config file has to be amended to allow very large objects to be included in the project.
             }
             catch (Exception ex)
             {
