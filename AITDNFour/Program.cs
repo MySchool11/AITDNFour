@@ -102,6 +102,12 @@ namespace AITDNFour
 
             // Lists also have other methods which plain arrays do not have like Contains, Exists, Find, Capacity and many more, so a List<> is usually preferable to a plain array except in one case
             // overhead, List<> uses more system resources than arrays do. You can mitigate this by using Capacity to set the List<> size and BinarySearch to improve search performance in large lists
+            // Another very useful tool is the Insert() method which will insert an item at the specified location
+            var tools = new List<string>();
+            tools.Add("spanner");
+            tools.Add("screwdriver");
+            tools.Insert(0, "wrench");
+            // so now the List<> read spanner, screwdriver and after the Insert() command read wrench, spanner, screwdriver
             
             // The final type discussed here is the Dictionary<> type. This type is useful if an array is needed with non-ordered ids, for example
             var dict = new Dictionary<int, string>();
