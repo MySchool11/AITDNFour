@@ -12,6 +12,7 @@ using System.Collections.Generic;
 // ReSharper disable RedundantAssignment
 // ReSharper disable RedundantExplicitArrayCreation
 // ReSharper disable UseObjectOrCollectionInitializer
+// ReSharper disable CollectionNeverQueried.Local
 
 namespace AITDNFour
 {
