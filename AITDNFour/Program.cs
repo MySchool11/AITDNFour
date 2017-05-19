@@ -122,6 +122,9 @@ namespace AITDNFour
                 Console.WriteLine(key);
             }
 
+            // Many other functions for List<> exist, Google will help you find them and if you are lazy then just go to;
+            // https://www.dotnetperls.com/list
+
             Console.WriteLine("Press any key to exit...");
             Console.ReadKey();
         }
