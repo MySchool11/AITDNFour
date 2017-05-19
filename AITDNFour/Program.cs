@@ -1,15 +1,23 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
+
+// The following comments can be ignored, they are purely there to assist with a tool call ReSharper which highlights what it
+// believes to be errors. However when teaching a concept these "errors" actually aid understanding. These comments disable 
+// the "error" generation and stop the code looking awful.
+
+// ReSharper disable UnusedVariable
+// ReSharper disable NotAccessedVariable
+// ReSharper disable JoinDeclarationAndInitializer
+// ReSharper disable SuggestVarOrType_Elsewhere
+// ReSharper disable RedundantAssignment
+// ReSharper disable RedundantExplicitArrayCreation
+// ReSharper disable UseObjectOrCollectionInitializer
 
 namespace AITDNFour
 {
     internal class Program
     {
-        private static void Main(string[] args)
+        private static void Main()
         {
             // Arrays are reference types used to manage collection(s) of variables
             // Arrays are of fixed size so must be set a size when declaring and cannot be resized
