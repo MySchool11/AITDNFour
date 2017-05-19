@@ -107,7 +107,7 @@ namespace AITDNFour
             tools.Add("spanner");
             tools.Add("screwdriver");
             tools.Insert(0, "wrench");
-            // so now the List<> read spanner, screwdriver and after the Insert() command read wrench, spanner, screwdriver
+            // so the List<> read spanner, screwdriver and after the Insert() command read wrench, spanner, screwdriver
             
             // The final type discussed here is the Dictionary<> type. This type is useful if an array is needed with non-ordered ids, for example
             var dict = new Dictionary<int, string>();
