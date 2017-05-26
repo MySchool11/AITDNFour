@@ -18,6 +18,18 @@ namespace AITDNFour
 {
     internal class Program
     {
+
+        /// <summary>
+        /// This program teaches about arrays, lists and dictionaries.
+        /// </summary>
+        /// <author>
+        /// Samuel Bancroft (c) 2017
+        /// </author>
+        /// <code>
+        /// Made up of one main file
+        /// Program.cs => the main file
+        /// </code>
+
         private static void Main()
         {
             // Arrays are reference types used to manage collection(s) of variables
